@@ -8,6 +8,7 @@ using namespace scpdll;
 int main()
 {
 	
+	
 	HRESULT hr = CoInitialize(nullptr);
 
 	// Create the interface pointer.
@@ -32,7 +33,8 @@ int main()
 	
 
 	Sleep(1000);
-	interface1r->unplug_Click();
+	interface1r->unplugAll_Click();
+	//interface1r->unplug_Click();
 		/*
 		 void plugin_Click(int index);
          bool btnA_Click();*/
